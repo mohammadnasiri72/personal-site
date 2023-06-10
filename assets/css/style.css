@@ -1,0 +1,780 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "yekan";
+}
+body{
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+}
+
+.main-img {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    background-blend-mode: multiply;
+}
+
+.fix-menu {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(46, 46, 46);
+    position: fixed;
+    right: 0;
+    z-index: 10;
+}
+
+.my-img {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    border: solid 10px rgba(0, 255, 255, 0.418);
+    border-radius: 50% 20%;
+    cursor: pointer;
+}
+
+.my-name {
+    color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.title1-main-img {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.title2-main-img {
+    color: aqua;
+    text-align: center;
+    font-size: 65px;
+}
+
+.title3-main-img {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.p-link-main-img {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-main-img {
+    color: aqua;
+    text-decoration: none;
+    border: 1px solid aqua;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+.link-main-img:hover {
+    color: rgb(58, 58, 58);
+    background-color: aqua;
+}
+
+.p-home-menu {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-menu {
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+    font-size: 20px;
+}
+
+.home-menu:hover {
+    color: aqua;
+}
+
+.p-about-menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon-social-networks {
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.icon-box-social-networks {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    top: 100%;
+}
+
+.icon-social-networks:hover {
+    color: aqua;
+}
+
+.about {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.box-title-about {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.title-about {
+    font-size: 85px;
+    font-weight: 900;
+    color: rgba(70, 70, 70, 0.075);
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%) scaleX(1.5);
+    margin-top: 50px;
+}
+
+.title-about2 {
+    color: black;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%) scaleX(1.2);
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+.text-about {
+    width: 45%;
+    height: auto;
+    position: relative;
+    right: 25%;
+
+}
+
+.description-about {
+    width: 30%;
+    height: auto;
+    position: relative;
+    right: 32%;
+}
+
+.box-description-about {
+    direction: rtl;
+}
+
+.span-text-about {
+    font-size: 27px;
+}
+
+.name-span-text-about {
+    color: rgb(92, 209, 209);
+}
+
+.text-about-text {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.466);
+    margin-top: 10px;
+}
+
+.name-description-about {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.email-description-about {
+    text-decoration: none;
+    color: rgb(89, 212, 212);
+    transition: 0.6s;
+}
+
+.email-description-about:hover {
+    color: rgb(64, 160, 160);
+}
+
+.icon-down-main-img {
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    font-size: 65px !important;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+.resume {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.main-box-resume {
+    direction: rtl;
+}
+
+.resume-education {
+    width: 40%;
+    height: auto;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.resume-experience {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.box-resume-education1 {
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    margin-top: 30px;
+}
+
+.year-resume {
+    color: white;
+    background-color: rgba(101, 175, 175, 0.733);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.6s;
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+
+.text-box-resume {
+    text-align: justify;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.514);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.description-box-resume {
+    color: red;
+}
+
+.my-skill {
+    width: 100%;
+    height: auto;
+    direction: rtl;
+    padding-right: 25%;
+
+}
+
+.progress-bar-html {
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.progress-bar-css {
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.progress-bar-js {
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.box1-skill {
+    width: 100%;
+    margin: 10px;
+}
+
+.box2-skill {
+    width: 100%;
+    margin: 10px;
+}
+
+.bar-html {
+    width: 60%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+
+.bar-css {
+    width: 50%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+
+.bar-js {
+    width: 40%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+
+.progress-bar-jq {
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.bar-jq {
+    width: 60%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+
+.progress-bar-npm {
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.bar-npm {
+    width: 50%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+
+.progress-bar-react {
+    height: 15px;
+    background-color: rgb(182, 182, 182);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.bar-react {
+    width: 40%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 5px 10px 10px 5px;
+    transition: 1.5s;
+}
+
+.box-download-CV {
+    border: 1px solid rgb(51, 51, 51);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+    padding-bottom: 15px;
+    z-index: 10;
+}
+
+.box-download-CV:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.box-download-CV:hover .download-CV {
+    color: white;
+}
+
+.box-download-CV:hover .icon-download-CV {
+    color: white;
+}
+
+.download-CV {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    transition: 0.6s;
+}
+
+.icon-download-CV {
+    color: rgb(51, 51, 51);
+    transition: 0.6s;
+    position: relative;
+    top: 5px;
+}
+
+.portfolio {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.box-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-left: 40px;
+    position: relative;
+}
+.slider-portfolio{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.icon-right-slider-portfolio{
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 35px !important;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.icon-right-slider-portfolio:hover{
+    color: white;
+}
+.icon-left-slider-portfolio{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 35px !important;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 0;
+    cursor: pointer;
+    transition: 0.6s;
+    opacity: 0.2;
+}
+.icon-left-slider-portfolio:hover{
+    color: white;
+}
+.portfolio1 {
+    min-width: calc(33.33% - 50px);
+    height: 300px;
+    background-image: url("../img/ماشین-حساب-کاسیو-مدل-GX-12B.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.portfolio1:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: 105% 105%;
+}
+
+.title-project {
+    color: white;
+    text-align: center;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.text-project {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.portfolio1:hover .title-project {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio1:hover .text-project {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio2 {
+    min-width: calc(33.33% - 50px);
+    height: 300px;
+    background-image: url("../img/Untitled.png");
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.portfolio2:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: 205% 105%;
+}
+
+.portfolio2:hover .title-project2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio2:hover .text-project {
+    opacity: 1;
+    visibility: visible;
+}
+
+.title-project2 {
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.portfolio3 {
+    min-width: calc(33.33% - 50px);
+    height: 300px;
+    background-image: url("../img/4654654.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+}
+.portfolio3:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: 105% 105%;
+}
+
+.portfolio3:hover .title-project2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio3:hover .text-project {
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio4 {
+    min-width: calc(33.33% - 50px);
+    height: 300px;
+    background-image: url("../img/a1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    
+}
+.portfolio4:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: 105% 105%;
+}
+
+.portfolio4:hover .title-project {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio4:hover .text-project {
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio5 {
+    min-width: calc(33.33% - 50px);
+    height: 300px;
+    background-image: url("../img/a1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+}
+.portfolio5:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    background-size: 105% 105%;
+}
+
+.portfolio5:hover .title-project {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio5:hover .text-project {
+    opacity: 1;
+    visibility: visible;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    direction: rtl;
+}
+.contact-address{
+    width: 20%;
+    height: auto;
+    margin-right: 22%;
+}
+.icon-call{
+    color: aqua;
+    font-size: 35px !important;
+    position: relative;
+    top: 10px;
+}
+.num-call{
+    font-size: 20px;
+}
+.mail-text{
+    cursor: pointer;
+}
+.follow-me{
+    margin-top: 20px;
+}
+.icon-footer{
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.icon-footer:hover{
+    color: aqua;
+}
+.contact-massage{
+    width: 55%;
+    height: auto;
+    margin-right: 100px;
+}
+.in-name{
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.26);
+    border: none;
+    box-shadow: 0 0 1px 1px;
+    margin: 10px;
+}
+.t-area{
+    width: 82%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1px 1px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.26);
+}
+.link-massage{
+    padding: 10px 20px;
+    background-color: rgb(66, 168, 168);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+
+}
+.link-massage:hover{
+    color: white;
+    background-color: rgb(45, 80, 80);
+}
+.p-link-massage{
+    position: relative;
+    right: 30%;
+    top: 20px;
+}
+.notefoot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.text-notefoot{
+    font-size: 20px;
+}
+.text-notefoot-name{
+    color: rgb(67, 177, 177);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.text-notefoot-name:hover{
+    color: rgb(61, 121, 121);
+}
+.text2-notefoot{
+    font-size: 20px;
+    border-right: 1px solid black;
+    margin: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.text2-notefoot:hover{
+    color: rgb(83, 182, 182);
+}
+.text3-notefoot{
+    font-size: 20px;
+    margin: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.text3-notefoot:hover{
+    color: rgb(83, 182, 182);
+}
